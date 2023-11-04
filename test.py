@@ -1,2 +1,2 @@
-a = 3
-print(isinstance(a, int))
+a = [1, 2, 3]
+print(a[:] - [1])
