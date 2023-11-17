@@ -1,5 +1,5 @@
 class Solution:
-    def getWinner(self, arr: List[int], k: int) -> int:
+    def getWinner(self, arr: list[int], k: int) -> int:
         if k == 1:
             return max(arr[0], arr[1])
         if k >= len(arr):
